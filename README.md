@@ -9,7 +9,7 @@ Maybe the reason is that the *hplip* now is updated, but the *hplip's plugin* is
 The _hplip-plugin_ utility is able to download (and install) the new plugin's version, but sometimes fails. And you have to downlad it manually, that is boring.
 
 
-This little script downloads the correct version of the plugin. And then launch the _hplip-plugin_ utility.
+This little script downloads the correct version of the plugin. And then launch the _hp-plugin_ utility.
 
 
 ##### Important note:

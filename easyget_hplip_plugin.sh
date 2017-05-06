@@ -1,4 +1,4 @@
-# DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+﻿# DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 #                     Version 2, December 2004
 
 #  Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
@@ -26,9 +26,9 @@ echo -e "\nInsert the directory path where save hplip plugin (e.g. /home/myuser/
 read -e destination_dir
 
 echo -e "\nDownloading the hplip plugin...\n"
-wget -P destination_dir https://www.openprinting.org/download/printdriver/auxfiles/HP/plugins/hplip-${hplip_version}-plugin.run
+wget -P ${destination_dir} https://www.openprinting.org/download/printdriver/auxfiles/HP/plugins/hplip-${hplip_version}-plugin.run
 
-echo "Launchin hp-plugin..."
+echo "Launching hp-plugin..."
 hp-plugin
 
 

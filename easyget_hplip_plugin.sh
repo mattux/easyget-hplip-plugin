@@ -29,8 +29,4 @@ read -e destination_dir
 echo -e "\nDownloading the hplip plugin...\n"
 wget -P ${destination_dir} https://www.openprinting.org/download/printdriver/auxfiles/HP/plugins/hplip-${hplip_version}-plugin.run
 
-echo "Launching hp-plugin..."
-hp-plugin
-
-
 exit 0
